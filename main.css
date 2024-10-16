@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+header h1 {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0,
+        "XELA" 0,
+        "YELA" 0;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', cursive;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Roboto', cursive;
+}
+
+#sobre-a-loja,
+#catalogo {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: black;
+}
+
+.nav-catalogo .nav-link.active,
+#contato button,
+#promo-e-ofertas div a {
+    background-color: black;
+    color: #fff;
+}
+
+.nav-catalogo .nav-link:hover,
+#promo-e-ofertas div a {
+    background-color: black;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
